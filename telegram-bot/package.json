@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for admin replies",
+  "main": "Telegram-bot.cjs",
+  "scripts": {
+    "start": "node Telegram-bot.cjs",
+    "dev": "nodemon Telegram-bot.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "grammy": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
